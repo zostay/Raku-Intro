@@ -5,6 +5,11 @@ Sterling Hanenkamp, ZipRecruiter.com
 
 Special Thanks to Curtis "Ovid" Poe.
 
+# TODO
+
+Add JavaScript examples
+Add Haskell examples
+
 # Examples to follow along
 
 See glot.io if you want to try these out in a web browser.
@@ -57,9 +62,9 @@ bash src/floating-point-comparison.sh
 
 # Rational Math
 
-cat src/002-rational-math.p6
+cat src/rational-math.p6
 
-perl6 src/002-rational-math.p6
+perl6 src/rational-math.p6
 
 # Try -7/3
 
@@ -67,3 +72,56 @@ open slides/fractions.html
 
 bash src/fractions.sh
 
+cat src/nude-fractions.p6
+
+perl6 src/nude-fractions.p6
+
+# Write Only Language
+
+cat src/sigils.p6
+
+perl6 src/sigils.p6
+
+# Lucas Numbers
+
+open slides/lucas-numbers.html
+
+clear; cat src/lucas-numbers/lucas-01.p6
+
+perl6 src/lucas-numbers/lucas-01.p6
+
+clear; cat src/lucas-numbers/lucas-02.p6
+
+perl6 src/lucas-numbers/lucas-02.p6
+
+clear; cat src/lucas-numbers/lucas-03.p6
+
+perl6 src/lucas-numbers/lucas-03.p6
+
+clear; cat src/lucas-numbers/lucas-04.p6
+
+perl6 src/lucas-numbers/lucas-04.p6
+
+clear; cat src/lucas-numbers/lucas-05.p6
+
+perl6 src/lucas-numbers/lucas-05.p6
+
+clear; cat src/lucas-numbers/lucas-06.p6
+
+perl6 src/lucas-numbers/lucas-06.p6
+
+clear; cat src/lucas-numbers/lucas-07.p6
+
+perl6 src/lucas-numbers/lucas-07.p6
+
+clear; cat src/lucas-numbers/lucas-08.p6
+
+perl6 src/lucas-numbers/lucas-08.p6
+
+clear; cat src/lucas-numbers/lucas-09.p6
+
+perl6 src/lucas-numbers/lucas-09.p6
+
+clear; cat src/lucas-numbers/lucas-10.p6
+
+perl6 src/lucas-numbers/lucas-10.p6
