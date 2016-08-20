@@ -151,3 +151,17 @@ perl6 src/geopoint/GeoPoint-05.p6
 clear; vimcat src/geopoint/GeoPoint-06.p6
 
 perl6 src/geopoint/GeoPoint-06.p6
+
+TODO Compare to other langauges here?
+
+# Unicode
+
+clear; vimcat src/unicode.pl
+
+perl src/unicode.pl
+
+perl6 src/show-unicode.p6 src/unicode.pl
+
+perl6 src/show-unicode.p6 src/unicode.p6
+
+perl6 src/unicode.p6
