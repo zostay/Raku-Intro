@@ -61,6 +61,9 @@ cat src/002-rational-math.p6
 
 perl6 src/002-rational-math.p6
 
-# Other examples
+# Try -7/3
 
-cat 
+open slides/fractions.html
+
+bash src/fractions.sh
+
