@@ -162,6 +162,22 @@ perl src/unicode.pl
 
 perl6 src/show-unicode.p6 src/unicode.pl
 
+clear; vimcat src/unicode.p6
+
 perl6 src/show-unicode.p6 src/unicode.p6
 
 perl6 src/unicode.p6
+
+# Parallel Programming
+
+clear; vimcat src/serial-programming.p6
+
+time perl6 src/serial-programming.p6
+
+clear; vimcat src/serial-programming.p6; perl6 -e 'say "\n", "-" x 80, "\n"'; vimcat src/parallel-programming.p6
+
+time perl6 src/parallel-programming.p6
+
+clear; vimcat src/chat-server.p6
+
+perl6 src/chat-server.p6
