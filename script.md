@@ -156,7 +156,9 @@ TODO Compare to other langauges here?
 
 # Regexes and Grammars
 
+clear; vimcat src/grammars-geo.p6
 
+perl6 src/grammars-geo.p6
 
 # Unicode
 
