@@ -154,6 +154,10 @@ perl6 src/geopoint/GeoPoint-06.p6
 
 TODO Compare to other langauges here?
 
+# Regexes and Grammars
+
+
+
 # Unicode
 
 clear; vimcat src/unicode.pl
@@ -181,3 +185,24 @@ time perl6 src/parallel-programming.p6
 clear; vimcat src/chat-server.p6
 
 perl6 src/chat-server.p6
+
+# There's an Operator for that
+
+clear; vimcat src/operators-divisible.p6
+
+perl6 src/operators-divisible.p6
+
+clear; vimcat src/operators-op-equals.p6
+
+perl6 src/operators-op-equals.p6
+
+clear; vimcat src/operators-meta.p6
+
+perl6 src/operators-meta.p6
+
+# Useful built-in methods
+
+clear; vimcat src/builtins.p6
+
+perl6 src/builtins.p6
+
