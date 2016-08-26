@@ -126,6 +126,10 @@ clear; vimcat src/lucas-numbers/lucas-10.p6
 
 perl6 src/lucas-numbers/lucas-10.p6
 
+clear; vimcat src/lucas-numbers/lucas-11.p6
+
+perl6 src/lucas-numbers/lucas-11.p6
+
 # Classes and Declarative Programming 
 
 clear; vimcat src/geopoint/GeoPoint-01.p6
