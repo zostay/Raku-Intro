@@ -1,4 +1,14 @@
 <meta charset="utf-8">
-<div style="position:absolute;top:50%;font-size:100px;margin-top:-200px;width:100%;text-align:center;">L<sub>n</sub> := L<sub>n-2</sub> + L<sub>n-1</sub><br/>
-L<sub>0</sub> := 2<br/>
-L<sub>1</sub> := 1</div>
+<div style="position:absolute;top:50%;font-size:75px;margin-top:-150px;width:100%;text-align:center;">$L_n := \begin{cases} 2 & \text{if } n = 0 \\
+1 & \text{if } n = 1 \\
+L_{n-2} + L_{n-1} & \text{if } n > 1 \end{cases}$</div>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+  showMathMenu: false,
+  CommonHTML: {}
+});
+</script>

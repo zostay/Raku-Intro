@@ -1,0 +1,39 @@
+<meta charset="utf-8">
+<style>
+#phi > span { display: none }
+#phi > span.current { display: inline }
+</style>
+<script>
+var i = 0;
+function nextPhi() {
+    var spans = document.getElementById('phi').children;
+    spans[i++].className = '';
+    spans[i].className = 'current';
+}
+</script>
+<body onclick="nextPhi()">
+<div id="phi" style="position:absolute;top:50%;font-size:150px;margin-top:-75px;width:100%;text-align:center;">
+    <span class="current">$φ = \frac{1 + \sqrt{5}}{2}$</span>
+    <span>$φ^0 = 1$</span>
+    <span>$φ^1 = \frac{1 + \sqrt{5}}{2}$</span>
+    <span>$φ^2 = \frac{1 + \sqrt{5}}{2} + 1$</span>
+    <span>$φ^3 = 2\frac{1 + \sqrt{5}}{2} + 1$</span>
+    <span>$φ^4 = 3\frac{1 + \sqrt{5}}{2} + 2$</span>
+    <span>$φ^5 = 5\frac{1 + \sqrt{5}}{2} + 3$</span>
+    <span>$φ^6 = 8\frac{1 + \sqrt{5}}{2} + 5$</span>
+    <span>$φ^7 = 13\frac{1 + \sqrt{5}}{2} + 8$</span>
+    <span>$φ^8 = 21\frac{1 + \sqrt{5}}{2} + 13$</span>
+    <span>$φ^9 = 34\frac{1 + \sqrt{5}}{2} + 21$</span>
+    <span>$φ^{10} = 55\frac{1 + \sqrt{5}}{2} + 34$</span>
+</div>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+  showMathMenu: false,
+  CommonHTML: {}
+});
+</script>
+</body>

@@ -10,3 +10,4 @@ say @list.permutations;
 say @list.pick(*);
 say @list.pick;
 
+say expmod(7, 2, 5); # 7 ** 2 % 5;

@@ -126,6 +126,8 @@ clear; vimcat src/lucas-numbers/lucas-10.p6
 
 perl6 src/lucas-numbers/lucas-10.p6
 
+open slides/golden-ratio.html
+
 clear; vimcat src/lucas-numbers/lucas-11.p6
 
 perl6 src/lucas-numbers/lucas-11.p6
@@ -211,4 +213,16 @@ perl6 src/operators-meta.p6
 clear; vimcat src/builtins.p6
 
 perl6 src/builtins.p6
+
+clear; vimcat src/builtins-eval-01.p6
+
+perl6 src/builtins-eval-01.p6
+
+clear; vimcat src/builtins-eval-02.p6
+
+perl6 src/builtins-eval-02.p6
+
+clear; vimcat src/builtins-eval-03.p6
+
+perl6 src/builtins-eval-03.p6
 
