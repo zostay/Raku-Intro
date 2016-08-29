@@ -5,14 +5,15 @@ Sterling Hanenkamp, ZipRecruiter.com
 
 Special Thanks to Curtis "Ovid" Poe.
 
-# TODO
+<!-- TODO
 
 Add JavaScript examples
 Add Haskell examples
+-->
 
 # Examples to follow along
 
-See glot.io if you want to try these out in a web browser.
+Read https://github.com/zostay/Perl6-Intro
 
 # PSA
 
@@ -110,11 +111,13 @@ clear; vimcat src/lucas-numbers/lucas-09.p6
 
 clear; vimcat src/lucas-numbers/lucas-10.p6
 
-# open slides/golden-ratio.html
-# 
-# clear; vimcat src/lucas-numbers/lucas-11.p6
-# 
-# perl6 src/lucas-numbers/lucas-11.p6
+<!--
+open slides/golden-ratio.html
+
+clear; vimcat src/lucas-numbers/lucas-11.p6
+
+perl6 src/lucas-numbers/lucas-11.p6
+-->
 
 # Classes and Declarative Programming 
 
