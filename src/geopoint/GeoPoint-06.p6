@@ -10,7 +10,25 @@ class GeoPoint {
     }
 }
 
-my $geo = GeoPoint.new(lat => 39.1915045, lon => -96.6070506);
-say $geo.lat; # 39.1915045
-say $geo.lon; # -96.6070506
-say $geo;     # N39.1915045 W96.6070506
+constant $Earth-R := 3_959; # miles
+
+sub deg2rad($deg) { ($deg / 180) * π }
+
+sub hav($θ) { sin($θ / 2)² }
+
+sub infix:<distance-to>(GeoPoint $a, GeoPoint $b) returns Num {
+    my $Δlat = deg2rad($b.lat - $a.lat);
+    my $Δlon = deg2rad($b.lon - $a.lon);
+
+    my $h = hav($Δlat) + cos(deg2rad($a.lat)) * cos(deg2rad($b.lat)) * hav($Δlon);
+    2 * $Earth-R * asin( sqrt( $h ) );
+}
+
+my $the-fellow = GeoPoint.new(lat => 39.1915045, lon => -96.6070506);
+say $the-fellow.lat;
+say $the-fellow.lon;
+say $the-fellow;
+
+my $radina's-bakehouse = GeoPoint.new(lat => 39.1747982, lon => -96.5594172);
+
+say ($the-fellow distance-to $radina's-bakehouse).fmt("%.1f"), " miles";

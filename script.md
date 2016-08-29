@@ -89,14 +89,6 @@ clear; vimcat src/lucas-numbers/lucas-01.p6
 
 perl6 src/lucas-numbers/lucas-01.p6
 
-clear; vimcat src/lucas-numbers/lucas-02.p6
-
-clear; vimcat src/lucas-numbers/lucas-03.p6
-
-perl6 src/lucas-numbers/lucas-03.p6
-
-clear; vimcat src/lucas-numbers/lucas-04.p6
-
 clear; vimcat src/lucas-numbers/lucas-05.p6
 
 perl6 src/lucas-numbers/lucas-05.p6
@@ -121,17 +113,9 @@ perl6 src/lucas-numbers/lucas-11.p6
 
 # Classes and Declarative Programming 
 
-clear; vimcat src/geopoint/GeoPoint-01.p6
+vim src/geopoint/GeoPoint-06.p6
 
-clear; vimcat src/geopoint/GeoPoint-02.p6
-
-clear; vimcat src/geopoint/GeoPoint-03.p6
-
-clear; vimcat src/geopoint/GeoPoint-04.p6
-
-clear; vimcat src/geopoint/GeoPoint-05.p6
-
-clear; vimcat src/geopoint/GeoPoint-06.p6
+perl6 src/geopoint/GeoPoint-06.p6
 
 <!-- TODO Compare to other langauges here? -->
 
