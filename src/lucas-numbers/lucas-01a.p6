@@ -6,4 +6,4 @@ sub lucas($nth) {
     }
 }
 
-for 0 .. 9 -> $n { say lucas($n) }
+for ^10 -> $n { say lucas($n) }

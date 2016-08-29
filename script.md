@@ -62,9 +62,9 @@ bash src/floating-point-comparison.sh
 
 # Rational Math
 
-clear; vimcat src/rational-math.p6
+clear; vimcat src/rational-comparison.p6
 
-perl6 src/rational-math.p6
+perl6 src/rational-comparison.p6
 
 # Try -7/3
 
@@ -80,8 +80,6 @@ perl6 src/nude-fractions.p6
 
 clear; vimcat src/sigils.p6
 
-perl6 src/sigils.p6
-
 # Functions and Functional Programming
 
 open slides/lucas-numbers.html
@@ -92,15 +90,11 @@ perl6 src/lucas-numbers/lucas-01.p6
 
 clear; vimcat src/lucas-numbers/lucas-02.p6
 
-perl6 src/lucas-numbers/lucas-02.p6
-
 clear; vimcat src/lucas-numbers/lucas-03.p6
 
 perl6 src/lucas-numbers/lucas-03.p6
 
 clear; vimcat src/lucas-numbers/lucas-04.p6
-
-perl6 src/lucas-numbers/lucas-04.p6
 
 clear; vimcat src/lucas-numbers/lucas-05.p6
 
@@ -108,63 +102,35 @@ perl6 src/lucas-numbers/lucas-05.p6
 
 clear; vimcat src/lucas-numbers/lucas-06.p6
 
-perl6 src/lucas-numbers/lucas-06.p6
-
 clear; vimcat src/lucas-numbers/lucas-07.p6
-
-perl6 src/lucas-numbers/lucas-07.p6
 
 clear; vimcat src/lucas-numbers/lucas-08.p6
 
-perl6 src/lucas-numbers/lucas-08.p6
-
 clear; vimcat src/lucas-numbers/lucas-09.p6
-
-perl6 src/lucas-numbers/lucas-09.p6
 
 clear; vimcat src/lucas-numbers/lucas-10.p6
 
-perl6 src/lucas-numbers/lucas-10.p6
-
-open slides/golden-ratio.html
-
-clear; vimcat src/lucas-numbers/lucas-11.p6
-
-perl6 src/lucas-numbers/lucas-11.p6
+# open slides/golden-ratio.html
+# 
+# clear; vimcat src/lucas-numbers/lucas-11.p6
+# 
+# perl6 src/lucas-numbers/lucas-11.p6
 
 # Classes and Declarative Programming 
 
 clear; vimcat src/geopoint/GeoPoint-01.p6
 
-perl6 src/geopoint/GeoPoint-01.p6
-
 clear; vimcat src/geopoint/GeoPoint-02.p6
-
-perl6 src/geopoint/GeoPoint-02.p6
 
 clear; vimcat src/geopoint/GeoPoint-03.p6
 
-perl6 src/geopoint/GeoPoint-03.p6
-
 clear; vimcat src/geopoint/GeoPoint-04.p6
-
-perl6 src/geopoint/GeoPoint-04.p6
 
 clear; vimcat src/geopoint/GeoPoint-05.p6
 
-perl6 src/geopoint/GeoPoint-05.p6
-
 clear; vimcat src/geopoint/GeoPoint-06.p6
 
-perl6 src/geopoint/GeoPoint-06.p6
-
 TODO Compare to other langauges here?
-
-# Regexes and Grammars
-
-clear; vimcat src/grammars-geo.p6
-
-perl6 src/grammars-geo.p6
 
 # Unicode
 
@@ -180,6 +146,8 @@ perl6 src/show-unicode.p6 src/unicode.p6
 
 perl6 src/unicode.p6
 
+clear; vimcat src/show-unicode.p6
+
 # Parallel Programming
 
 clear; vimcat src/serial-programming.p6
@@ -194,7 +162,17 @@ clear; vimcat src/chat-server.p6
 
 perl6 src/chat-server.p6
 
+# Regexes and Grammars
+
+clear; vim src/grammars-geo.p6
+
+perl6 src/grammars-geo.p6
+
 # There's an Operator for that
+
+clear; vimcat src/operators-range.p6
+
+perl6 src/operators-range.p6
 
 clear; vimcat src/operators-divisible.p6
 
