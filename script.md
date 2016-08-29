@@ -63,7 +63,7 @@ bash src/floating-point-comparison.sh
 
 # Rational Math
 
-clear; vimcat src/rational-comparison.p6
+clear; cat src/rational-comparison.p6
 
 perl6 src/rational-comparison.p6
 
@@ -107,7 +107,7 @@ clear; vimcat src/lucas-numbers/lucas-07.p6
 
 clear; vimcat src/lucas-numbers/lucas-08.p6
 
-clear; vimcat src/lucas-numbers/lucas-09.p6
+clear; cat src/lucas-numbers/lucas-09.p6
 
 clear; vimcat src/lucas-numbers/lucas-10.p6
 
@@ -133,17 +133,17 @@ clear; vimcat src/geopoint/GeoPoint-05.p6
 
 clear; vimcat src/geopoint/GeoPoint-06.p6
 
-TODO Compare to other langauges here?
+<!-- TODO Compare to other langauges here? -->
 
 # Unicode
 
-clear; vimcat src/unicode.pl
+clear; cat src/unicode.pl
 
 perl src/unicode.pl
 
 perl6 src/show-unicode.p6 src/unicode.pl
 
-clear; vimcat src/unicode.p6
+clear; cat src/unicode.p6
 
 perl6 src/show-unicode.p6 src/unicode.p6
 
