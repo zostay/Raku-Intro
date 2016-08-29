@@ -13,7 +13,7 @@ Add Haskell examples
 
 # Examples to follow along
 
-Read https://github.com/zostay/Perl6-Intro
+open https://github.com/zostay/Perl6-Intro
 
 # PSA
 
